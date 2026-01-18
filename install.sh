@@ -148,8 +148,8 @@ source venv/bin/activate
 python3 manage.py create-admin <<EOF
 admin
 admin@${DOMAIN}
-Baran1453**
-Baran1453**
+Baran1453
+Baran1453
 EOF
 
 echo "===== KURULUM TAMAMLANDI ====="
@@ -158,4 +158,4 @@ echo "DB USER: ${DB_USER}"
 echo "DB PASS: ${DB_PASS}"
 echo "API KEY: ${API_KEY}"
 echo "ADMIN USER: admin"
-echo "ADMIN PASS: Baran1453**"
+echo "ADMIN PASS: Baran1453"
